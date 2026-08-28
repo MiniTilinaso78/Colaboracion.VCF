@@ -74,7 +74,7 @@ while escorrecto == True:
         print ("No se permiten numeros negativos")
         escorrecto = True
     else:
-        print("el area es ",resultado" metros cuadrados")
+        print ("el area es ",resultado" metros cuadrados")
         escorrecto = False
 
 
