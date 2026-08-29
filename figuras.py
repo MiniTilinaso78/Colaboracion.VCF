@@ -26,7 +26,8 @@ def calcular_area_triangulo(base, altura):
     area = (base * altura) / 2
     return area
 
-
+# quiero ver si agragando esto eso estoy en mi rama o en la main 
+#porque los archivos son iguales
 
 
 
