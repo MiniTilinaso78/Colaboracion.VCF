@@ -22,6 +22,12 @@ def areacircunferencia(radio,pi):
     medidas.append(radio*2*pi)
     return medidas
 
+def calcular_area_triangulo(base, altura):
+    area = (base * altura) / 2
+    return area
+
+
+
 
 
 
