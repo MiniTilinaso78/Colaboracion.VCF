@@ -24,6 +24,10 @@ def areacircunferencia(radio,pi):
 
 
 
+def calcular_area_triiangulo(base, altura):
+    area = (base * altura) / 2
+    return area
+
 
 
 
