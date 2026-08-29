@@ -1,14 +1,4 @@
 #Este codigo es de prueba 
-def calcular_area_triangulo(base, altura):
-    area = (base * altura) / 2
-    return area
-
-def areacircunferencia(radio,pi):
-    medidas=[]
-    medidas.append(radio*radio*pi)
-    medidas.append(radio*2*pi)
-    return medidas
-
 nombrefigura=input("Ingrese el nombre de la figura: Triangulo, Rectangulo o Circunferencia")
 
 #Lo haremos con funciones; mi espacio: lineas 6-26, Vanessa: lineas 27-57 y Carlos: lineas 58-78
@@ -17,7 +7,6 @@ print("Solo numeros positivos")
 if nombrefigura.lower()=="triangulo" or nombrefigura.lower()=="rectangulo":
     medida1=int(input("Ingresa la altura: "))
     medida2=int(input("Ingresa el tamaño de la base: "))
-    print("El área de la figura es:",calcular_area_triangulo(medida2,medida1))
 
 elif nombrefigura.lower()=="circunferencia":
     medida1=int(input("Ingresa la medida del radio: "))
@@ -27,7 +16,15 @@ else:
 
 
 
+def areacircunferencia(radio,pi):
+    medidas=[]
+    medidas.append(radio*radio*pi)
+    medidas.append(radio*2*pi)
+    return medidas
 
+def calcular_area_triangulo(base, altura):
+    area = (base * altura) / 2
+    return area
 
 
 
