@@ -29,6 +29,7 @@ def calcular_area_triangulo(base, altura):
 # quiero ver si agragando esto eso estoy en mi rama o en la main 
 #porque los archivos son iguales
 
+# Practicando tanto el modificar el archivo como los comando Prueba_01
 
 
 
