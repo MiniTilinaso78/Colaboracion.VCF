@@ -1,3 +1,4 @@
+
 #Este codigo es de prueba 
 nombrefigura=input("Ingrese el nombre de la figura: Triangulo, Rectangulo o Circunferencia")
 
@@ -46,58 +47,7 @@ def calcular_area_triangulo(base, altura):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def calcular_area_rectangulo(base,altura):
+    area = base * altura
+    return area
 
